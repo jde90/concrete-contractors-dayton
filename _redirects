@@ -15,4 +15,4 @@
 /services/stamped-concrete-installation-dayton-oh   /services/stamped-concrete    301
 
 # www → apex
-https://www.daytonconcretecontractors.com/*  https://daytonconcretecontractors.com/:splat  301!
+https://www.concretecontractorsdaytonohio.com/*  https://concretecontractorsdaytonohio.com/:splat  301!
