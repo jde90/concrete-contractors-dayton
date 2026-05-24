@@ -1,0 +1,18 @@
+# Strip .html from URLs
+/services/:slug.html  /services/:slug  301
+/locations/:slug.html /locations/:slug 301
+/:page.html           /:page           301
+
+# Old site redirects
+/about-us                                          /about                        301
+/contact-us                                        /contact                      301
+/services/commercial-concrete-dayton-oh             /#services                    301
+/services/concrete-repair/dayton-oh                 /services/concrete-repair     301
+/services/curbs-gutters-installation-dayton-oh      /services/sidewalks-walkways  301
+/services/driveway-installation-dayton-oh           /services/concrete-driveways  301
+/services/patio-porch-installation-dayton-oh        /services/concrete-patios     301
+/services/pool-deck-installation-dayton-oh          /services/concrete-patios     301
+/services/stamped-concrete-installation-dayton-oh   /services/stamped-concrete    301
+
+# www → apex
+https://www.daytonconcretecontractors.com/*  https://daytonconcretecontractors.com/:splat  301!
